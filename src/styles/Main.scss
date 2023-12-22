@@ -1,0 +1,67 @@
+@import '_vars';
+
+.Main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.Main > h1{
+  text-align: center;
+}
+.input-section{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.input-section > input {
+  width: 250px;
+  padding: 5px;
+  border: 1px solid $primary-color;
+}
+.input-section > button{
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  font-size: 1.5rem;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.input-section > button:hover{
+  cursor: pointer;
+}
+.input-section > button:active{
+  color: $secondary-color;
+  border: 1px solid $secondary-color;
+}
+.tasks-section{
+  display: flex;
+  justify-content: center;
+}
+.tasks-section > ul{
+  list-style: none;
+  text-align: center;
+}
+
+.tasks-section > ul > li{
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+.icons > img{
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.icons > img:hover{
+  cursor: pointer;
+}
+.div-task{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.icons{
+  display: flex;
+}
+
+
